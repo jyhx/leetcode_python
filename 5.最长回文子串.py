@@ -5,6 +5,8 @@
 #
 
 # @lc code=start
+
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         ret = ''
@@ -29,4 +31,3 @@ class Solution:
                 j += 1
         return ret
 # @lc code=end
-

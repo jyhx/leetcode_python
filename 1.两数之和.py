@@ -5,6 +5,8 @@
 #
 
 # @lc code=start
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         num_to_index = {}
@@ -15,4 +17,3 @@ class Solution:
             num_to_index[num] = index
         return None
 # @lc code=end
-

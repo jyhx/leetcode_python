@@ -11,6 +11,7 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         if l1 is None:
@@ -27,4 +28,3 @@ class Solution:
         return ret
 
 # @lc code=end
-

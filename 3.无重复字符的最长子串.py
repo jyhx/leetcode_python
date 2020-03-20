@@ -5,6 +5,8 @@
 #
 
 # @lc code=start
+
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         char_to_index = {}
@@ -17,4 +19,3 @@ class Solution:
             ret = max(ret, j - i + 1)
         return ret
 # @lc code=end
-

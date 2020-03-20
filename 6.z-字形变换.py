@@ -9,10 +9,11 @@
 
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
-        if numRows <= 1: return s
+        if numRows <= 1:
+            return s
         ret = ''
         for line in range(numRows):
             ret += ''.join([char for index,
-                        char in enumerate(s) if (index+line) % (2*numRows-2) == 0 or (index-line) % (2*numRows-2) == 0])
+                            char in enumerate(s) if (index+line) % (2*numRows-2) == 0 or (index-line) % (2*numRows-2) == 0])
         return ret
 # @lc code=end
